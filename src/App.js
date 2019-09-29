@@ -4,7 +4,7 @@ import { Button, Container, Message, Title } from "rbx";
 import firebase from 'firebase/app';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import CourseList from './components/CourseList';
-import { db } from './db';
+import { db } from './components/Course/index';
 import { timeParts } from './components/Course/times';
 
 const uiConfig = {

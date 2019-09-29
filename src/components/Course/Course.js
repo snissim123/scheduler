@@ -1,7 +1,7 @@
 import React from 'react';
 import 'rbx/index.css';
 import { Button } from "rbx";
-import { db } from '../../db';
+import { db } from './index';
 import { timeParts, getCourseTerm, hasConflict, getCourseNumber } from './times';
 
 const buttonColor = selected => (
